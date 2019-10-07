@@ -1,0 +1,6 @@
+192.168.10.1 - - [07/Oct/2019:12:39:22 +0000] "GET / HTTP/1.1" 403 501 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+192.168.10.1 - - [07/Oct/2019:12:40:12 +0000] "GET / HTTP/1.1" 200 24834 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+192.168.10.1 - - [07/Oct/2019:12:41:03 +0000] "-" 408 0 "-" "-"
+192.168.10.1 - - [07/Oct/2019:12:41:44 +0000] "GET / HTTP/1.1" 200 24837 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+192.168.10.1 - - [07/Oct/2019:12:41:45 +0000] "GET / HTTP/1.1" 200 24835 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+192.168.10.1 - - [07/Oct/2019:12:42:37 +0000] "-" 408 0 "-" "-"

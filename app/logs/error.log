@@ -1,0 +1,16 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.10.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 07 12:39:22.607367 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.23 configured -- resuming normal operations
+[Mon Oct 07 12:39:22.607440 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 07 12:39:22.669436 2019] [autoindex:error] [pid 17] [client 192.168.10.1:41500] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon Oct 07 12:41:12.193835 2019] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.10.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 07 12:41:44.706941 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.23 configured -- resuming normal operations
+[Mon Oct 07 12:41:44.706985 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 07 12:42:42.419104 2019] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.10.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 07 12:43:11.858714 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.23 configured -- resuming normal operations
+[Mon Oct 07 12:43:11.858759 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 07 12:44:10.967766 2019] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.10.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 07 12:44:35.870770 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.23 configured -- resuming normal operations
+[Mon Oct 07 12:44:35.870814 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
