@@ -32,7 +32,17 @@ services:
        networks:
          lampnetwork:
             ipv4_address: 192.168.10.100
-            
+
+   memcached:
+       image: memcached:1.4.24
+       container_name: memcached
+       ports:
+           - 11211:11211
+       restart: always
+       networks:
+         lampnetwork:
+            ipv4_address: 192.168.10.6
+
 networks:
   lampnetwork:
     driver: bridge
