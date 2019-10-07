@@ -1,0 +1,24 @@
+version: '2'
+services:
+   app:
+       container_name: app
+       image: php:7.2-apache
+       volumes:
+           - "./app/code/:/var/www/html/"
+           - "./app/logs/:/var/log/apache2/"
+       ports:
+           - "80:80"
+           - "443:443"
+       tty: true
+       restart: always
+       networks:
+         lampnetwork:
+            ipv4_address: 192.168.10.2
+            
+networks:
+  lampnetwork:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 192.168.10.0/16
+         gateway: 192.168.10.1
