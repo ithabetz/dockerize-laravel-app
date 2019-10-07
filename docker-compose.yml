@@ -13,7 +13,25 @@ services:
        restart: always
        networks:
          lampnetwork:
-            ipv4_address: 192.168.10.2
+            ipv4_address: 192.168.10.2         
+
+
+   mysql:
+       image: mysql:5.7
+       container_name: mysql
+       volumes:
+           - "./mysql/db/:/var/lib/mysql/"
+           - "./mysql/conf/my.cnf:/etc/mysql/my.cnf"
+       environment:
+           - MYSQL_ROOT_PASSWORD=adm1n
+           - MYSQL_USER=adm1n
+           - MYSQL_PASSWORD=adm1n
+       ports:
+           - "3306"             
+       restart: always
+       networks:
+         lampnetwork:
+            ipv4_address: 192.168.10.100
             
 networks:
   lampnetwork:
