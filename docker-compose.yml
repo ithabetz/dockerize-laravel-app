@@ -13,7 +13,7 @@ services:
        restart: always
        networks:
          lampnetwork:
-            ipv4_address: 192.168.10.2         
+            ipv4_address: 192.168.0.2         
 
 
    mysql:
@@ -31,22 +31,22 @@ services:
        restart: always
        networks:
          lampnetwork:
-            ipv4_address: 192.168.10.100
+            ipv4_address: 192.168.0.100
 
    memcached:
-       image: memcached:1.4.24
+       image: memcached
        container_name: memcached
        ports:
            - 11211:11211
        restart: always
        networks:
          lampnetwork:
-            ipv4_address: 192.168.10.6
+            ipv4_address: 192.168.0.6
 
 networks:
   lampnetwork:
     driver: bridge
     ipam:
      config:
-       - subnet: 192.168.10.0/16
-         gateway: 192.168.10.1
+       - subnet: 192.168.0.0/16
+         gateway: 192.168.0.1
